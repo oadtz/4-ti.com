@@ -1,22 +1,26 @@
 import React from 'react';
 import App from 'next/app';
-import { ApolloProvider } from '@apollo/client';
+import { ApolloProvider } from "@apollo/react-hooks"
+import { ApolloClient, NormalizedCacheObject } from "apollo-boost"
 
-import client from '../lib/apollo';
-
-import withData from '../lib/apollo';
+import withApollo from '../lib/apollo';
 
 import '../node_modules/bulma/css/bulma.css'
 
-class MyApp extends App<any, any> {
+interface IMyAppProps {
+  apollo: ApolloClient<NormalizedCacheObject>;
+}
+
+class MyApp extends App<IMyAppProps> {
   public render () {
-    const { Component, pageProps } = this.props;
+    const { Component, pageProps, apollo } = this.props
+
     return (
-      <ApolloProvider client={client}>
+      <ApolloProvider client={apollo}>
         <Component {...pageProps} />
       </ApolloProvider>
     );
   }
 }
 
-export default MyApp;
+export default withApollo(MyApp);
