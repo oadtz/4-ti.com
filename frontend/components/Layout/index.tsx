@@ -2,6 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
+import styles from './styles.module.scss'
+
 class Layout extends React.Component<any, any> {
     public render () {
         const {children} = this.props;
@@ -16,7 +18,7 @@ class Layout extends React.Component<any, any> {
                     <div className="container">
                         <div className="navbar-brand">
                             <Link href="/">
-                                <a className="navbar-item"><img src="/img/logo.svg" width="112" /></a>
+                                <a className="navbar-item"><img className={styles.logo}src="/img/logo.svg" /></a>
                             </Link>
                         </div>
                     </div>
