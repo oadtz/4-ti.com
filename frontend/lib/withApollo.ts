@@ -10,13 +10,3 @@ export default withApollo(
       cache: new InMemoryCache().restore(initialState || {})
     })
 )
-
-// import { ApolloClient, InMemoryCache } from '@apollo/client';
-
-// const GRAPHQL_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:1337";
-// const client = new ApolloClient({
-//   uri: `${GRAPHQL_URL}/graphql`,
-//   cache: new InMemoryCache()
-// });
-
-// export default client;

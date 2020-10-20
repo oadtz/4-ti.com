@@ -3,7 +3,7 @@ import App from 'next/app';
 import { ApolloProvider } from "@apollo/react-hooks"
 import { ApolloClient, NormalizedCacheObject } from "apollo-boost"
 
-import withApollo from '../lib/apollo';
+import { withApollo } from '../lib';
 
 import '../node_modules/bulma/css/bulma.css'
 

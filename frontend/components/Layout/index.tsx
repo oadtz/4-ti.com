@@ -2,10 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
-interface ILayoutProps { };
-interface ILayoutState { };
-
-class Layout extends React.Component<ILayoutProps, ILayoutState> {
+class Layout extends React.Component<any, any> {
     public render () {
         const {children} = this.props;
 
