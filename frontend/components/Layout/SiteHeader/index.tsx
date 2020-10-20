@@ -20,19 +20,19 @@ class SiteHeader extends React.Component<any, any> {
 
     public render () {
         return (
-            <nav className="navbar" role="navigation" aria-label="main navigation">
+            <nav className="navbar is-fixed-top has-shadow is-transparent" role="navigation" aria-label="main navigation">
                 <div className="container">
                     <div className="navbar-brand">
                         <Link href="/">
                             <a className="navbar-item has-text-left"><img className={styles.logo}src="/img/logo.svg" /></a>
                         </Link>
-                        <a role="button" className={`navbar-burger burger ${this.state.showMenu && 'is-active'}`} aria-label="menu" aria-expanded="false"  onClick={this.toggleMenu.bind(this)}>
+                        <a role="button" className={`navbar-burger burger ${this.state.showMenu && 'is-active'}`} data-target="navbarBasicExample" aria-label="menu" aria-expanded="false"  onClick={this.toggleMenu.bind(this)}>
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
                         </a>
                     </div>
-                    <div className="navbar-menu">
+                    <div id="navbarBasicExample"  className={`navbar-menu ${this.state.showMenu && 'is-active'}`}>
                         <div className="navbar-end">
                             <Link href="/">
                                 <a className="navbar-item">
