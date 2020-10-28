@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700');
+
+// Set your brand colors
+$red4-ti:  #D72638;
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $red4-ti;
+$navbar-dropdown-arrow: white;
+$navbar-background-color: $red4-ti;
+$navbar-item-color: white;
+$navbar-item-hover-color:  white;
+$navbar-item-hover-background-color: rgb(143, 25, 37);
+$navbar-item-active-color: whtie;
+$navbar-item-active-background-color:$red4-ti;	
+$navbar-dropdown-item-hover-background-color: rgb(226, 226, 226);
+$link: white;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$navbar-burger-color: white;
+$navbar-burger-hover-color: white;
+$input-focus-border-color: hsl(217, 71%, 53%);
+$input-focus-box-shadow-color : hsla(217, 71%, 53%, 0.432);
+$card-radius: 1rem;
+$box-radius: 1rem;
+$button-color: $link;
+$button-hover-color:rgba(0, 0, 0, 0.603);
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$breadcrumb-item-color: hsl(217, 71%, 53%);
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";

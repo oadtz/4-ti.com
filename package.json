@@ -1,0 +1,33 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bulma": "^0.9.1",
+    "install": "^0.13.0",
+    "next": "9.5.5",
+    "pure-react-carousel": "^1.27.5",
+    "react-collapsible": "^2.8.1",
+    "i18n": "^0.13.2",
+    "next-i18next": "^6.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-markdown": "^5.0.1",
+    "react-page-scroller": "^2.0.10-beta",
+    "react-scroll": "^1.8.1",
+    "sass": "^1.27.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.1",
+    "@types/react": "^16.9.53",
+    "@types/styled-components": "^4.4.1",
+    "typescript": "^3.7.4"
+  }
+}

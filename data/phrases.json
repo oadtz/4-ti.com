@@ -1,0 +1,54 @@
+{
+    "home": {
+        "en": "Home",
+        "th": "หน้าแรก"
+    },
+    "aboutus": {
+        "en": "About Us",
+        "th": "เกี่ยวกับเรา"
+    },
+    "services": {
+        "en": "Our Services",
+        "th": "บริการของเรา"
+    },
+    "team": {
+        "en": "Our Team",
+        "th": "ทีมงาน"
+    },
+    "testimonials": {
+        "en": "Testimonials",
+        "th": "ผลงาน"
+    },
+    "blogs": {
+        "en": "Blogs",
+        "th": "บล็อก"
+    },
+    "jobs": {
+        "en": "Jobs",
+        "th": "ร่วมงาน"
+    },
+    "contact": {
+        "en": "Contact",
+        "th": "ติดต่อ"
+    },
+    "contactus": {
+        "en": "Contact Us",
+        "th": "ติดต่อเรา"
+    },
+    "jobs_title": {
+        "en": "Join Our Team",
+        "th": "มาเป็นทีมเดียวกับเรา"
+    },
+    "jobs_subtitle": {
+        "en": "Check out the open positions below and feel free to send your resume to us.",
+        "th": "ลองดูตำแหน่งที่เรายังเปิดรับ แล้วส่งเรซูเม่มาเลยถ้าคุณสนใจ"
+    },
+    "jobs_positions": {
+        "en": "Open Positions",
+        "th": "ตำแหน่งที่เรามองหา"
+    },
+    "jobs_posteddate": {
+        "en": "Posted Date",
+        "th": "วันที่ลงประกาศ"
+    }
+}
