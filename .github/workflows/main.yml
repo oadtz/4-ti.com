@@ -41,7 +41,5 @@ jobs:
             registry-username: ${{ secrets.REGISTRY_USERNAME }}
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
             name: 4tiweb
-            ports: 
-              - 3000
-              - 80
+            ports: 3000
             location: 'southeast asia'
